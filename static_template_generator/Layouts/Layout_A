@@ -1,0 +1,89 @@
+<div class="main">
+    <div class="box1">
+        <div class="card">
+            <img src="{{ items[0]['image_link'] }}" alt="Avatar" />
+            <div class="container">
+                <h3 class="over-effects">
+                    <a href="{{ items[0]['canonical_link'] }}" target="_blank"><b>{{ items[0]['title'] }}</b></a>
+                </h3>
+                <!-- <br />
+
+                    <p>
+                        {{ items[0]['description'] }}
+                    </p> -->
+                <h6>{{ items[0]['site_name'] }}</h6>
+            </div>
+        </div>
+    </div>
+    <!-- box1 class end   -->
+    <div class="box2">
+        <div class="card">
+            <img src="{{ items[1]['image_link'] }}" alt="Avatar" />
+            <div class="container">
+                <h3>
+                    <a href="{{ items[1]['canonical_link'] }}" target="_blank"><b>{{ items[1]['title'] }}</b></a>
+                </h3>
+                <!-- <br /> -->
+                <!-- <p>
+                        {{ items[1]['description'] }}
+                 </p> -->
+
+                <h6>{{ items[1]['site_name'] }}</h6>
+            </div>
+        </div>
+    </div>
+    <!-- box2 class end   -->
+    <div class="box3">
+        <div class="card">
+            <img src="{{ items[2]['image_link'] }}" alt="Avatar" />
+            <div class="container">
+                <h1>
+                    <a href="{{ items[2]['canonical_link'] }}" target="_blank"><b>{{ items[2]['title'] }}</b></a>
+                </h1>
+
+                <p>
+                    {{ items[2]['description'] }}
+                </p>
+
+                <h6>{{ items[2]['site_name'] }}</h6>
+            </div>
+        </div>
+    </div>
+    <!-- box3 class end   -->
+    <div class="box4">
+        <div class="card" id="main-card1-id1">
+            <img src="{{ items[3]['image_link'] }}" alt="Avatar" />
+            <div class="container">
+                <h3>
+                    <a href="{{ items[3]['canonical_link'] }}" target="_blank"><b>{{ items[3]['title'] }}</b></a>
+                </h3>
+                <!-- <br />
+                    <p>
+                         {{ items[3]['description'] }}
+                    </p> -->
+
+                <h6>{{ items[3]['site_name'] }}</h6>
+            </div>
+        </div>
+    </div>
+    <!-- box4 class end   -->
+    <div class="box5">
+        <div class="card">
+            <img src="{{ items[4]['image_link'] }}" alt="Avatar" />
+            <div class="container">
+                <h3>
+                    <a href="{{ items[4]['canonical_link'] }}" target="_blank"><b>{{ items[4]['title'] }}</b></a>
+                </h3>
+                <!-- <br />
+
+                    <p>
+                             {{ items[4]['description'] }}
+                    </p> -->
+
+                <h6>{{ items[4]['site_name'] }}</h6>
+            </div>
+        </div>
+    </div>
+    <!-- box5 class end   -->
+</div>
+<!-- main class end   -->

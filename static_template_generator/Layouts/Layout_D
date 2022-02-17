@@ -1,0 +1,79 @@
+<div id="main4">
+    <div class="main4-box-img">
+        <img src="{{ items[0]['image_link'] }}" alt="Avatar" />
+    </div>
+
+    <div class="main4-box-text">
+        <h1>
+            <a href="{{ items[0]['canonical_link'] }}" target="_blank"><b>{{ items[0]['title'] }}</b></a>
+        </h1>
+
+        <p>
+
+                {{ items[0]['description'] }}
+        </p>
+
+        <h6>{{ items[0]['site_name'] }}</h6>
+    </div>
+
+    <div class="main4-box-img">
+        <img src="{{ items[1]['image_link'] }}" alt="Avatar" />
+    </div>
+
+    <div class="main4-box-text">
+        <h1>
+            <a href="{{ items[1]['canonical_link'] }}" target="_blank"><b>{{ items[1]['title'] }}</b></a>
+        </h1>
+
+        <p>
+                {{ items[1]['description'] }}
+        </p>
+
+        <h6>{{ items[1]['site_name'] }}</h6>
+    </div>
+
+    <div class="main4-box-img">
+        <img src="{{ items[2]['image_link'] }}" alt="Avatar" />
+    </div>
+
+    <div class="main4-box-text">
+        <h1>
+            <a href="{{ items[2]['canonical_link'] }}" target="_blank"><b>{{ items[2]['title'] }}</b></a>
+        </h1>
+
+        <p>
+            {{ items[2]['description'] }}
+        </p>
+
+        <h6>{{ items[2]['site_name'] }}</h6>
+    </div>
+    <div class="main4-box-img">
+        <img src="{{ items[3]['image_link'] }}" alt="Avatar" />
+    </div>
+
+    <div class="main4-box-text">
+        <h1>
+            <a href="{{ items[3]['canonical_link'] }}" target="_blank"><b>{{ items[3]['title'] }}</b></a>
+        </h1>
+
+        <p>
+            {{ items[3]['description'] }}
+        </p>
+
+        <h6>{{ items[3]['site_name'] }}</h6>
+    </div>
+    <div class="main4-box-img">
+        <img src="{{ items[4]['image_link'] }}" alt="Avatar" />
+    </div>
+    <div class="main4-box-text">
+        <h1>
+            <a href="{{ items[4]['canonical_link'] }}" target="_blank"><b>{{ items[4]['title'] }}</b></a>
+        </h1>
+
+        <p>
+            {{ items[4]['description'] }}
+        </p>
+
+        <h6>{{ items[4]['site_name'] }}</h6>
+    </div>
+</div>
